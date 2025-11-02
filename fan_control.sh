@@ -90,7 +90,7 @@ set_fan_speed() {
             if (ratio > 1) ratio = 1
             printf "%d", ratio * 255
         }')
-        echo $fan_speed
+        echo ${fan_speed}
     }
 
     # Calculate fan speeds
